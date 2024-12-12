@@ -244,10 +244,11 @@ color: #FF8000;
 }
 .overlay-icon {
     position: absolute;
+    top: 3%;
     bottom: 0%; 
     right: 100px; 
-    width: 400px; 
-    height: 400px;
+    width: 330px; 
+    height: 450px;
     z-index: 10; 
     animation: slide-right-to-left 2s ease-out; 
 }
