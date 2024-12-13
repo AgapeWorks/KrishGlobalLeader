@@ -180,6 +180,7 @@ color: #FF8000;
     text-decoration: none;
   }
   .clickButton{
+    margin: 30px 0px;
     background-image: linear-gradient(to right,#FF8000, #000);
 }
 .clickButton:hover{
@@ -336,3 +337,27 @@ color: #FF8000;
     animation-delay: 1.4s;
 }
 
+.book-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+@media (min-width: 768px) {
+    .book-image {
+        height: 700px;
+    }
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .flex-md-row {
+        flex-direction: row;
+    }
+
+    .flex-md-row > div {
+        flex: 1;
+    }
+}
