@@ -248,7 +248,7 @@ color: #FF8000;
     position: absolute;
     top: 3%;
     bottom: 0%; 
-    right: 100px; 
+    right: 200px; 
     width: 330px; 
     height: 450px;
     z-index: 10; 
@@ -415,7 +415,6 @@ color: #FF8000;
 .buyButton:hover span {
     color: #fff; /* Change text color on hover */
 }
-
 
 
 
