@@ -417,5 +417,27 @@ color: #FF8000;
 }
 
 
+.floating-container {
+    background-color: #fff;
+    border: 2px solid #bfbfbf;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4), 0 6px 6px rgba(255, 255, 255, 0.3); */
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0.9;
+}
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.zoom-on-hover {
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.zoom-on-hover:hover {
+    transform: scale(1.5); /* Zooms the image to 1.5 times its size */
+}
+
 
 
