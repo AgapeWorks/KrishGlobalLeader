@@ -248,7 +248,7 @@ color: #FF8000;
     position: absolute;
     top: 3%;
     bottom: 0%; 
-    right: 50px; 
+    right: 260px; 
     width: 330px; 
     height: 450px;
     z-index: 10; 
@@ -378,6 +378,7 @@ color: #FF8000;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
     position: relative;
     overflow: hidden; /* Clip any overflow for effects */
+    height: 35px;
 }
 
 .buyButton img {
