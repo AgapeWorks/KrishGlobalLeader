@@ -216,7 +216,7 @@ color: #FF8000;
     transform: translate(-50%, -50%); 
 }
 .formmainContainer{
-    height: 40rem;
+    height: 30rem;
     width: 30rem;
     background-color: #fff;
     padding: 40px;
@@ -499,4 +499,4 @@ color: #FF8000;
       }
     }
   }
-  
+
