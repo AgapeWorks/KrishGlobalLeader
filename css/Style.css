@@ -455,3 +455,48 @@ color: #FF8000;
     padding: 20px;
     border-radius:10px ;
 }
+.ResearchCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 15px; 
+    width: 100%; 
+}
+.mainCard {
+    margin: 7rem auto;
+    background-color: #2d2c43;
+    max-width: 441px;
+    width: 100%;
+  
+    @media (max-width: 460px) {
+      width: 90%;
+    }
+  
+    img {
+      max-width: 94px;
+      width: 100%;
+      height: 94px;
+      border-radius: 50%;
+      border: 10px solid #1e1d2f;
+    }
+  
+    .user-info {
+      h4 {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+      }
+    }
+  
+    a,
+    a:visited {
+      background-color: #8f5aff;
+      max-width: 120px;
+      width: 100%;
+      transition: 0.3s ease;
+  
+      &:hover {
+        background-color: lighten(#8f5aff, 10%);
+      }
+    }
+  }
+  
