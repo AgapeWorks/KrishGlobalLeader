@@ -349,9 +349,9 @@ color: #FF8000;
     }
 }
 
-.d-flex {
+/* .d-flex {
     flex-wrap: wrap;
-}
+} */
 
 @media (min-width: 768px) {
     .flex-md-row {
@@ -566,4 +566,42 @@ color: #FF8000;
     }
   
   }
+  .ResearchCard {
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
 
+}
+
+.Certificate-card {
+    height: 300px;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Certificate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container__img-holder img {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0%;
+}
+
+.btn-gradient {
+    background: linear-gradient(135deg, #FF8000, #b25a02);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, #FF8000, #b25a02);
+}
