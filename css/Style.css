@@ -462,12 +462,12 @@ color: #FF8000;
     gap: 15px;
     width: 100%;
     max-width: 1000px;
-    margin: auto;
+    margin: 30px 0px;
 }
 
 /* Certificate Card Styling */
 .Certificate-card {
-    height: 300px;
+    height: 100%;
     width: 100%;
     max-width: 800px;
     background: rgba(255, 255, 255, 0.1);
@@ -487,6 +487,7 @@ color: #FF8000;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
 
 /* Main Card Styling */
 .mainCard {
