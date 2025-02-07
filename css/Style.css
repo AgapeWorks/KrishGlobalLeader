@@ -425,7 +425,7 @@ color: #FF8000;
     /* box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4), 0 6px 6px rgba(255, 255, 255, 0.3); */
     transform: translateY(0);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 .image-container {
     display: inline-block;
@@ -467,14 +467,16 @@ color: #FF8000;
 
 /* Certificate Card Styling */
 .Certificate-card {
-    height: 100%;
-    width: 100%;
-    max-width: 800px;
+    /* height: 100%;
+    width: 100%; */
+    width: 350px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+    padding: 20px 0px;
 }
 
 .Certificate-card:hover {
@@ -614,4 +616,13 @@ color: #FF8000;
         max-width: 200px;
         margin: auto;
     }
+}
+
+.ArticleTitle {
+    color: #ff8000;
+}
+
+.ArticleTitle:hover {
+    color: #000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
