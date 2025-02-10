@@ -446,9 +446,9 @@ color: #FF8000;
    
 }
 .Certificate01Img{
-    height: 200px;
-    width: 400px;
-    border: 1px solid #000;
+    height: 150px;
+    width: 150px;
+   
     padding: 10px;
     border-radius: 5px;
 }
@@ -683,4 +683,11 @@ color: #FF8000;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+}
+.Certificate01Img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.Certificate01Img:hover {
+    transform: scale(1.2);
 }
