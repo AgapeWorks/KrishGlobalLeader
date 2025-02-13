@@ -691,3 +691,34 @@ color: #FF8000;
 .Certificate01Img:hover {
     transform: scale(1.2);
 }
+.scrolling-container {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 550px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-content {
+    display: flex;
+    gap: 20px; /* Space between images */
+    animation: scrollLeft 10s linear infinite;
+}
+
+.scrolling-image {
+    width: 150px;
+    height: 250px;
+    flex-shrink: 0; /* Prevents images from shrinking */
+}
+
+/* Keyframes for smooth scrolling */
+@keyframes scrollLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
