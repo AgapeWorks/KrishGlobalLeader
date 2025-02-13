@@ -722,3 +722,60 @@ color: #FF8000;
         transform: translateX(-100%);
     }
 }
+
+
+
+
+.marquee-container {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+/* Marquee Content */
+.marquee-content {
+    display: flex;
+    gap: 30px; /* Space between images */
+    animation: scroll 10s linear infinite;
+    width: max-content; /* Prevents breaking */
+}
+
+/* Image Styling */
+.marquee-content img {
+    width: auto;
+    height: 150px;
+}
+
+/* Keyframes for Infinite Scrolling */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Duplicate Images for Smooth Effect */
+.marquee-content {
+    display: flex;
+    align-items: center;
+    animation: scroll 10s linear infinite;
+}
+
+.marquee-content .duplicate {
+    display: flex;
+}
+ /* Video and Image Styling */
+ video {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
