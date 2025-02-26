@@ -483,6 +483,7 @@ color: #FF8000;
     /* height: 100%;
     width: 100%; */
     width: 420px;
+    height: 400px;
     background: #fff;
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -625,7 +626,8 @@ color: #FF8000;
 }
 
 .ArticleTitle {
-    color: #ff8000;
+    color: #656565;
+    font-size: 16px;
 }
 
 .ArticleTitle:hover {
@@ -792,6 +794,8 @@ color: #FF8000;
 .PatentText:hover {
     color: #FF8000;
 }
-
+.NewNews p{
+font-family: IBM Plex Serif;
+}
 
 
