@@ -502,7 +502,7 @@ color: #FF8000;
     width: 100%; */
     width: 420px;
     height: 450px;
-    background: #fff;
+    background: #EEF9FF;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -644,7 +644,7 @@ color: #FF8000;
 }
 
 .ArticleTitle {
-    color: #656565;
+    color: #07a1d9;
     font-size: 16px;
 }
 
