@@ -419,8 +419,8 @@ color: #FF8000;
 
 
 .floating-container {
-    background-color: rgba(25, 117, 209, 0.6);
-    border: 2px solid #bfbfbf;
+    /* background-color: rgba(25, 117, 209, 0.6);
+    border: 2px solid #bfbfbf; */
     border-radius: 10px;
     /* box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4), 0 6px 6px rgba(255, 255, 255, 0.3); */
     transform: translateY(0);
@@ -494,6 +494,24 @@ color: #FF8000;
 }
 
 .Certificate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Conference-card {
+    /* height: 100%;
+    width: 100%; */
+    width: 420px;
+    height: 450px;
+    background: #fff;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+    padding: 20px 0px;
+}
+
+.Conference-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
