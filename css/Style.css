@@ -1106,7 +1106,8 @@ font-family: IBM Plex Serif;
 }
 
 .author-name{
-    font-family: Ananda Black Personal Use;
+    font-family: Ananda Black Personal Use !important;
+    color: #506989;
 }
 
 .owl-carousel .item {
@@ -1118,10 +1119,11 @@ font-family: IBM Plex Serif;
   .book {
     transition: transform 0.3s ease;
     transform-style: preserve-3d;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
   }
 
   .book img {
+   
     object-fit: cover;
     border-radius: 5px;
   }
@@ -1133,8 +1135,11 @@ font-family: IBM Plex Serif;
 
   .owl-item.active:not(.center) .book {
     transform: rotateY(-15deg);
-    opacity: 0.7;
+    filter: blur(2px);
+    /* Optional: reduce opacity slightly for a subtle effect */
+    opacity: 0.8;
   }
+  
 
   .owl-stage {
     display: flex;
