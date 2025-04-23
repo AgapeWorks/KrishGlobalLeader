@@ -1094,3 +1094,49 @@ font-family: IBM Plex Serif;
         scale: 1.5;
     }
 }
+
+.banner-section {
+    background-image: url(../images/SirBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes the image cover the entire section */
+    background-position: center; /* This ensures the image is centered */
+    min-height: 80vh;
+    margin-top: 95px;
+    width: 100%;
+}
+
+.author-name{
+    font-family: Ananda Black Personal Use;
+}
+
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+  }
+
+  .book {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .book img {
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .owl-item.active.center .book {
+    transform: scale(1.1) rotateY(0deg);
+    z-index: 2;
+  }
+
+  .owl-item.active:not(.center) .book {
+    transform: rotateY(-15deg);
+    opacity: 0.7;
+  }
+
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }

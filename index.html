@@ -24,7 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
@@ -33,6 +35,10 @@
     <link href="css/tooplate-little-fashion.css" rel="stylesheet">
     <!-- favIcon -->
     <link rel="icon" type="image/x-icon" href="images/FavIcon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
     <!--
 
     Tooplate 2127 Little Fashion
@@ -107,12 +113,79 @@
             </div>
         </nav>
 
-        <section class="slick-slideshow">
+        <section class="banner-section d-flex align-items-center">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                                <div>
+                                    <h2 class="author-name">Radhakrishnan</h2>
+                                    <p>Principal Software Architect , Researcher , Author</p>
+                                    <p><a href="">Explore <i class="fa-solid fa-arrow-right"></i></a></p>
+                                </div>
+                                <div class="container my-5">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book.html#book-details01"><img src="images/Books01.png" alt="Book 1"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book.html#book-details03"><img src="images/Books02.png" alt="Book 2"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book03.html#book-details11"><img src="images/Books11.png" alt="Book 3"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book01.html#book-details04"><img src="images/Books04.png" alt="Book 4"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book01.html#book-details05"><img src="images/Books05.png" alt="Book 5"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book.html#book-details06"><img src="images/Books06.png" alt="Book 6"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book04.html#book-details017"><img src="images/Books18.png" alt="Book 7"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book04.html#book-details016"><img src="images/Books17.png" alt="Book 8"></a>
+                                          </div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="book">
+                                            <a href="Book04.html#book-details015"><img src="images/Books16.png" alt="Book 9"></a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                  </div>
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="slick-slideshow">
             <div class="slick-custom">
                 <div style="position: relative;">
 
                     <video src="images/slideshow/BannerVideo.mp4" autoplay loop muted playsinline></video>
-                    <!-- <img src="images/slideshow/bg01.jpg" style="height: 400px; width: 100%; object-fit: cover;" alt="Overlay Icon" class="img-fluid mx-2"> -->
                     <img src="images/slideshow/ModelImage.png" alt="Radha Krishnan" class="overlay-icon">
                 </div>
 
@@ -156,7 +229,7 @@
 
 
 
-        </section>
+        </section> -->
         <section>
             <div class="d-flex gap-5 my-4 justify-content-center">
                 <div>
@@ -336,11 +409,12 @@
                             </div>
                             <div>
                                 <p class="text-center my-3" style="font-size:20px;">Future-Proof Microservices: Advanced
-                                   
-                                    Patterns  <br> and AI-Optimized Design</p>
+
+                                    Patterns <br> and AI-Optimized Design</p>
                             </div>
                             <div class="d-flex gap-4 my-5  justify-content-center">
-                                <a target="_blank" href="https://www.amazon.com/Future-Proof-Microservices-Advanced-Patterns-AI-Optimized/dp/B0DYDGNG5N?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.aJUZGOyvN6K-ssBXGO6SR9cPqGE5WoAoGPnoUB5c6_8t4F0YJ7oX-GvEZ5QHhMpjm1zAwIriCC-tdnkw_kGbWzlXziIu5PzQAtkU6ZoQmx3KcBP2liczNDIiaG4n5QsKnpOSwikxNOpZXDmoQ7Y7mc_NN0Z23WzjR5ha9rX_0DFOWSrPi2xvVhj4PUgvEyVm.4ElpidNOm2EFiagJPspykFbPVqlhVM44f5iiKmifzQc&dib_tag=AUTHOR">
+                                <a target="_blank"
+                                    href="https://www.amazon.com/Future-Proof-Microservices-Advanced-Patterns-AI-Optimized/dp/B0DYDGNG5N?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.aJUZGOyvN6K-ssBXGO6SR9cPqGE5WoAoGPnoUB5c6_8t4F0YJ7oX-GvEZ5QHhMpjm1zAwIriCC-tdnkw_kGbWzlXziIu5PzQAtkU6ZoQmx3KcBP2liczNDIiaG4n5QsKnpOSwikxNOpZXDmoQ7Y7mc_NN0Z23WzjR5ha9rX_0DFOWSrPi2xvVhj4PUgvEyVm.4ElpidNOm2EFiagJPspykFbPVqlhVM44f5iiKmifzQc&dib_tag=AUTHOR">
                                     <button type="button" class="btn buyButton">
                                         <img src="images/AmazonBook.png" alt="Amazon Icon" class="amazon-icon">
                                         Buy
@@ -597,11 +671,11 @@
                                 </a>
                             </div>
                             <div>
-                                <p class="text-center my-3" style="font-size:20px;">Raising Future Leaders a parent's guide to nurturing strong, smart, and Successful kids</p>
+                                <p class="text-center my-3" style="font-size:20px;">Raising Future Leaders a parent's
+                                    guide to nurturing strong, smart, and Successful kids</p>
                             </div>
                             <div class="d-flex gap-4 my-5  justify-content-center">
-                                <a href="#"
-                                    target="_blank" class="amazon-link">
+                                <a href="#" target="_blank" class="amazon-link">
                                     <button type="button" class="btn buyButton">
                                         <img src="images/AmazonBook.png" alt="Amazon Icon" class="amazon-icon">
                                         Buy
@@ -610,8 +684,8 @@
                             </div>
                         </div>
                     </div>
-              
-      
+
+
                 </div>
                 <div class="row pt-5">
                     <!-- <div class="col-12 text-center">
@@ -829,6 +903,32 @@
     <script src="js/jQuery.headroom.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    center: true,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 3
+      },
+      1200: {
+        items: 5
+      }
+    }
+  });
+</script>
 
 </body>
 
