@@ -1,4 +1,11 @@
 /* Slider */
+.dropdown-arrow {
+    transition: transform 0.3s ease;
+}
+
+.dropdown.show .dropdown-arrow {
+    transform: rotate(180deg); /* Rotates the arrow up */
+}
 .slick-slider
 {
     position: relative;
@@ -1151,3 +1158,22 @@ font-family: IBM Plex Serif;
     display: flex;
     align-items: center;
   }
+  .owl-carousel .owl-stage {
+    transition: transform 1.2s cubic-bezier(0.68, -0.55, 0.27, 1.55) !important;
+  }
+  
+  .owl-carousel .owl-item {
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  /* Optional: bounce effect when active */
+  .owl-carousel .owl-item.active.center {
+    animation: bounceIn 0.8s ease-in-out;
+  }
+  
+  @keyframes bounceIn {
+    0% { transform: scale(0.95); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+  

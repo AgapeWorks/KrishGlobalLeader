@@ -77,9 +77,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link active" href="index.html">Home</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="Book.html">Books</a>
                         </li>
@@ -98,14 +98,16 @@
                         <li class="nav-item">
                             <a class="nav-link " href="YouTubeList.html">Media</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="News.html">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="About.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Contact.html">Contact</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Me
+                                <span class="ms-1 dropdown-arrow">&#9662;</span> <!-- Down arrow -->
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <li><a class="dropdown-item" href="About.html">About Me</a></li>
+                                <li><a class="dropdown-item" href="News.html">News</a></li>
+                                <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
+                            </ul>
                         </li>
                     </ul>
 
@@ -120,13 +122,12 @@
                         <div class="row">
                             <div class="col-lg-6 align-self-center">
                                 <div>
-                                    <h3 style="color: #3976bf;">Books, Breakthroughs, and Beyond – Leading the Future of Technology</h3>
                                     <h2 class="author-name" style="font-family: 'Century Gothic', sans-serif; font-weight: bold;">
                                        Dr.A. Radhakrishnan Perumal
                                       </h2>
                                       
                                     <p style="color: #506989; font-family: 'Century Gothic', sans-serif;">
-                                        Award-Winning AI Scientist. IEEE Senior Member. Inventor. Author of 7 books. Cybersecurity Architect.
+                                        Award-Winning AI Scientist. IEEE Senior Member. Inventor. Author of 27 books. Cybersecurity Expert. Principal Architect.
                                       </p>
                                       
                                     <p><a href="Research.html">View My Research & Publications<i class="fa-solid fa-arrow-right"></i></a></p>
@@ -916,25 +917,30 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 <script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 20,
-    center: true,
-    nav: false,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1200: {
-        items: 3
-      }
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 20,
+  center: true,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  smartSpeed: 1200, // Smoother glide
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 2
+    },
+    1200: {
+      items: 3
     }
-  });
+  }
+});
+
+
+
 </script>
 
 </body>
