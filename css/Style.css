@@ -1105,11 +1105,17 @@ font-family: IBM Plex Serif;
     width: 100%;
 }
 
-.author-name{
-    font-family: Ananda Black Personal Use !important;
-    color: #506989;
-}
-
+.author-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 35px;
+    background: linear-gradient(90deg, #39485c, #3976bf); /* Gradient warna */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent;
+  }
+  
 .owl-carousel .item {
     display: flex;
     justify-content: center;
