@@ -1105,7 +1105,7 @@ font-family: IBM Plex Serif;
 .banner-section {
     background-image: url(../images/SirBanner.jpg);
     background-repeat: no-repeat;
-    background-size: cover; /* This makes the image cover the entire section */
+    background-size: contain; /* This makes the image cover the entire section */
     background-position: center; /* This ensures the image is centered */
     min-height: 80vh;
     margin-top: 95px;
