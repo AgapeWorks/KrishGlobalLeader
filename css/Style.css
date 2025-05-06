@@ -1176,4 +1176,13 @@ font-family: IBM Plex Serif;
     50% { transform: scale(1.02); }
     100% { transform: scale(1); }
   }
+  .icon-zoom {
+    transition: transform 0.3s ease;
+}
+
+.icon-zoom:hover {
+    transform: scale(1.2);
+}
+
+
   
