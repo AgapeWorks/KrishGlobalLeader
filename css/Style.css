@@ -234,8 +234,8 @@
 }
 
 .formmainContainer {
-    height: 30rem;
-    width: 30rem;
+    height: auto;
+    width: 350px;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
@@ -504,8 +504,8 @@
 }
 
 .pats01Img {
-    height: 150px;
-    width: 180px;
+    height: 120px;
+    width: 120px;
 
 }
 
@@ -807,7 +807,7 @@
 
 .scrolling-image {
     width: 150px;
-    height: 250px;
+    height: 100%;
     flex-shrink: 0;
     /* Prevents images from shrinking */
 }
@@ -1311,4 +1311,9 @@ video {
 }
 .smallIcon{
     margin: 0px 10px;
+}
+@media screen and (max-width: 998px) {
+    .NewsRight {
+        display: none;
+    }
 }
