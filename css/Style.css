@@ -1317,3 +1317,18 @@ video {
         display: none;
     }
 }
+.img-wrapper {
+    overflow: hidden;
+    display: inline-block;
+    /* Optional: set a specific size if needed */
+}
+
+.zoom-img {
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.zoom-img:hover {
+    transform: scale(1.1);
+}
+
