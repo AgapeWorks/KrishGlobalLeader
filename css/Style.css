@@ -1332,3 +1332,28 @@ video {
     transform: scale(1.1);
 }
 
+.editorial-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.editorial-button:hover {
+    background: linear-gradient(to right, #0056b3, #0096c7);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+     color: white;
+}
+
+.editorial-button:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
