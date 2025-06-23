@@ -497,6 +497,10 @@
     /* Zooms the image to 1.5 times its size */
 }
 
+.Award-col{
+    min-height: 478px;
+}
+
 .Awards01Img {
     height: 100px;
     width: 250px;
