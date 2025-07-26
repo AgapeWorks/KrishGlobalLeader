@@ -1198,7 +1198,7 @@ video {
     /* This makes the image cover the entire section */
     background-position: center;
     /* This ensures the image is centered */
-    min-height: 80vh;
+    min-height: 55vh;
     margin-top: 95px;
     width: 100%;
 }
